@@ -1,6 +1,6 @@
 library(jpeg)
 require(jpeg)
-x=readJPEG("D:\\AKG\\Assignments\\PCM.jpg")
+x=readJPEG("D:\\Image Compressions\\PCM.jpg")
 View(x)
 pic=function(y,title)
 {
