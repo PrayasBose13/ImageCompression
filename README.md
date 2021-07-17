@@ -1,4 +1,4 @@
-# ImageCompression
+# Image Compression & Decompression
 #FInd a possible way to store the image data ,i.e, the vector representation of the image in such a way that the storage size is minimum and the data is easier to work with , we do not lose any important characteristics.
 #The above task could be achieved from the very idea of that the pixels in very close vicinity/uniform area of the image would have similar colour information. For example in a picture containing a face the pixels with close vicinity to the few hairs will also be hair.
 #This logically can be done, as we can say that pixels in the close vicinity or on an uniform area of the image should form different cluster, in other words the pixels determining the hair and those determining the eyes will have dissimilar values while two adjacents pixels defining hair will have values that is quite related and thus we can see a form of clustering .This can be done by clustering and using the kmeans algorithm(Lloyd's Algorithm).
